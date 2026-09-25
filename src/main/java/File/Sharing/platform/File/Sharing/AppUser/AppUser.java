@@ -10,6 +10,8 @@ import java.time.LocalDateTime;
 
 
 @Entity
+
+
 @Data
 public class AppUser {
     @GeneratedValue(strategy = GenerationType.AUTO)
